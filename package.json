@@ -1,0 +1,11 @@
+{
+  "name": "nifti-reporter",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules niftiHeader.mjs ./img.nii.gz"
+  },
+  "dependencies": {
+    "nifti-reader-js": "^0.6.8"
+  }
+}
